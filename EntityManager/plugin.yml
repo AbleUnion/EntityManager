@@ -1,0 +1,13 @@
+#name, main, version and api are required
+name: EntityManager
+main: milk\entitymanager\EntityManager
+version: "2.4 Beta"
+api: 2.0.0
+load: POSTWORLD
+author: 우유맛비누
+commands:
+ entitymanager:
+  usage: false
+  description: ""
+  aliases: [ent, entity]
+  permission: entitymanager.command
