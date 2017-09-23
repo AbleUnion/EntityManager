@@ -26,7 +26,7 @@ class EnderDragon extends Monster{
         return "EnderDragon";
     }
 
-   public function attackEntity(Entity $player){
+   	public function attackEntity(Entity $player){
         if($this->attackDelay > 30 && mt_rand(1, 32) < 4 && $this->distanceSquared($player) <= 200){
             $this->attackDelay = 0;
         
@@ -71,8 +71,5 @@ class EnderDragon extends Monster{
         }
     }
     public function getDrops(){
-        $drops = [];
-        return $drops;
+        return [];
     }
-
-}
