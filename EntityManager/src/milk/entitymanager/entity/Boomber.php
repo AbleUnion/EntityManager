@@ -7,7 +7,7 @@ use pocketmine\event\entity\EntityDamageByEntityEvent;
 use pocketmine\event\entity\EntityDamageEvent;
 use pocketmine\item\Item;
 
-class Zombie extends Monster{
+class Boomber extends Monster{
     const NETWORK_ID = 52;
 
     public $width = 4;
